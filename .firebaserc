@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "itsnasirtech"
+  },
+  "targets": {
+    "itsnasirtech": {
+      "hosting": {
+        "nam": [
+          "nasirahmedmomin"
+        ],
+        "nm": [
+          "nasirmomin"
+        ]
+      }
+    }
   }
 }
