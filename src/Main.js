@@ -15,7 +15,7 @@ export default function Main() {
 function showProfilePicture() {
     return (
         <div>
-            <img src={profile} width="200" height="200" />
+            <img alt="Profile Pic" src={profile} width="200" height="200" />
         </div>
     );
 }
@@ -26,10 +26,10 @@ function showFooter() {
     return (
         <div>
             <div className="footer-attached-bottom">
-                <a className="footer-links-space" href="https://github.com/momin96" target="_blank">Github</a>
-                <a className="footer-links-space" href="https://www.linkedin.com/in/nasirahmed-momin-21102872" target="_blank">LinkedIn</a>
-                <a className="footer-links-space" href="https://stackoverflow.com/users/4260623/nasir" target="_blank">StackOverflow</a>
-                <a className="footer-links-space" href="https://github.com/momin96" target="_blank">Email</a>
+                <a className="footer-links-space" href="https://github.com/momin96" target="_blank" rel="noreferrer">Github</a>
+                <a className="footer-links-space" href="https://www.linkedin.com/in/nasirahmed-momin-21102872" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a className="footer-links-space" href="https://stackoverflow.com/users/4260623/nasir" target="_blank" rel="noreferrer">StackOverflow</a>
+                <a className="footer-links-space" href="https://github.com/momin96" target="_blank" rel="noreferrer">Email</a>
             </div>
             <p className="footer-app-info">
                 This site is made with ReactJS & Github Copilot.
