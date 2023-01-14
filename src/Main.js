@@ -6,7 +6,7 @@ export default function Main() {
     return (
         <div>
             {ProfilePic()}
-            {showDetailContent()}
+            {Experience()}
             {showFooter()}
         </div>
     )
@@ -17,6 +17,15 @@ const ProfilePic = () => {
         <img className='profile-pic' src={process.env.PUBLIC_URL + '/assets/images/profilepic.png'} alt='Profile Pic'/>
     );
 }
+
+const Experience = () => {
+    return (
+        <div className="experience">
+            <p>I am a mobile app developer with 8+ years of experience in developing native iOS, Android and Flutter applications. I have expertise in developing high-quality, high-performance apps that are optimized for usability and user experience. I am proficient in Swift, Objective-C, Java, Kotlin and Flutter. I can develop apps for both Android and iOS platforms, and can integrate them with various back-end services and APIs. I am confident that I can help you design and develop mobile apps tailored to your specific needs and requirements.</p>
+        </div>
+    );
+}
+
 
 // create a react component to show a responsive image in center of the screen with 200px width and height 200px
 function showProfilePicture() {
