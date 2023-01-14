@@ -23,6 +23,3 @@ jobs:
           projectId: itsnasirtech
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
-      
-      - name: Deploy to Firebase
-        run: firebase deploy --only hosting:live
