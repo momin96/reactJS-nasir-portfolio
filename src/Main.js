@@ -1,14 +1,21 @@
 import React from 'react'
 import profile from '../src/imgresources/profilepic.png'
+// import 'Main.css'
 
 export default function Main() {
     return (
         <div>
-            {showProfilePicture()}
+            {ProfilePic()}
             {showDetailContent()}
             {showFooter()}
         </div>
     )
+}
+
+const ProfilePic = () => {
+    return (
+        <img className='profile-pic' src={process.env.PUBLIC_URL + '/assets/images/profilepic.png'} alt='Profile Pic'/>
+    );
 }
 
 // create a react component to show a responsive image in center of the screen with 200px width and height 200px
