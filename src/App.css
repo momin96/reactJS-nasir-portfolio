@@ -56,3 +56,15 @@
   margin-bottom: 10px;
 
 }
+
+.profile-pic {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.experience {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
