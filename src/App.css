@@ -13,27 +13,13 @@
   color: white;
 }
 
-.footer-links-space {
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  font-size: calc(5px + 2vmin);
-  color: white;
-}
-
-.footer-attached-bottom {
-  /* position: fixed; */
-  /* bottom: 0; */
-  padding-top: 150px;
-  align-content: center;
-  padding-bottom: 5px;
-  width: 100%;
-}
-
-.footer-app-info {
-  font-size: calc(5px + 1vmin);
-  color: white;
+#main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .name-center-header {
@@ -55,16 +41,4 @@
   margin-right: 20px;
   margin-bottom: 10px;
 
-}
-
-.profile-pic {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.experience {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }

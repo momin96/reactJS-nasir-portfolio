@@ -1,0 +1,35 @@
+.footer {
+    bottom: 10;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center; /* added to center the footer container vertically */
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) { /* For devices with screen width less than or equal to 480px */
+    .footer-container {
+        padding: 5px; /* reduce padding for mobile */
+    }
+    .footer-links {
+        flex-wrap: wrap; /* links will wrap to next line */
+    }
+    .footer-links a {
+        margin: 2px; /* add margin of 5px on all sides for mobile */
+    }
+}
+
+.footer-links {
+    justify-content: center; /* center align the links */
+}
+
+.footer-links a {
+    color: rgb(203, 168, 240);
+    text-decoration: none;
+    margin: 0 10px; /* add margin of 10px on all sides */
+}
