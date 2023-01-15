@@ -1,10 +1,32 @@
 #skills-header {
-    font-size: calc(20px + 5vmin);
-    color: white;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-      /* Make bold */
-      font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: right;
+    width: 30%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech-skills-left {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: right;
+    padding-right: 40px;
+    width: 30%;
+    /* this will make sure the p tags take half of the width of the container*/
+}
+
+.tech-skills-right {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    width: 70%;
+    /* this will make sure the p tags take half of the width of the container*/
 }
