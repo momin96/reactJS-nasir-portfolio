@@ -1,7 +1,7 @@
 import React from 'react';
-import './Footer.css';
+import './ProfileLinks.css';
 
-const Footer = () => {
+const ProfileLinks = () => {
     return (
         <footer className='footer'>
             <div className='footer-container'>
@@ -17,4 +17,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+export default ProfileLinks;

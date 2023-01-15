@@ -1,7 +1,7 @@
 import React from 'react'
-import './Experience.css';
+import './ProfileSummary.css';
 
-const Experience = () => {
+const ProfileSummary = () => {
     return (
         <div>
             <header className="name-center-header" >
@@ -14,4 +14,4 @@ const Experience = () => {
     );
 }
 
-export default Experience;
+export default ProfileSummary;
