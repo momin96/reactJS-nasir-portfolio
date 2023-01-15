@@ -4,7 +4,7 @@ import './TechSkills.css'
 const TechSkills = () => {
     return (
         <div>
-            <header>
+            <header id="skills-header">
                 Tech Skills
             </header>
             <p>Platform: iOS, Android, Flutter, Web (ReactJS)</p>
