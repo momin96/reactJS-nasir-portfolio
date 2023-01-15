@@ -1,10 +1,24 @@
-#blogs-header {
-    font-size: calc(20px + 5vmin);
-    color: white;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-      /* Make bold */
-      font-weight: bold;
+.blogs-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+  width: 30%;
+}
+
+.blogs-links-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.blogs-link {
+  display: block;
+  color: rgb(203, 168, 240);
+  text-decoration: none;
+  margin: 0 10px;
+  text-align: left;
+  /* add margin of 10px on all sides */
+  /* this will make the links appear one below the other */
 }
