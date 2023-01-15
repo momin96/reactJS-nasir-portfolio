@@ -1,0 +1,23 @@
+#experience {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Media Queries */
+  @media only screen and (min-width: 480px) { /* For devices with screen width greater than 480px */
+    #experience {
+        padding: 20px 250px; /* more padding for web browsers */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) { /* For devices with screen width less than or equal to 480px */
+    #experience {
+        padding: 20px 20px; /* less padding for mobile browsers */
+    }
+  }
+  
+  .experience-text {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+  }
